@@ -94,3 +94,99 @@ nav .link-btn:hover {
 .color-select #black {
     background: #000;
 }
+
+@media screen and (max-width: 414px) {
+    nav .logo {
+        width: 100px;
+        cursor: pointer;
+    }
+
+    nav .link-btn {
+        padding: 10px 20px;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .content h2 {
+        font-size: 24px;
+    }
+
+    .content h1 {
+        font-size: 50px;
+        margin-top: 15px;
+    }
+
+    .content p {
+        max-width: 300px;
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+
+    .container {
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        transition: 0.3s;
+
+    }
+
+    .content h3 {
+        margin-top: 300px;
+
+    }
+
+
+}
+
+@media screen and (max-width: 375px) {
+    nav {
+        margin-bottom: 30px;
+    }
+
+    nav .logo {
+        width: 100px;
+        cursor: pointer;
+    }
+
+    nav .link-btn {
+        padding: 10px 20px;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+    }
+
+    .content h2 {
+        font-size: 22px;
+    }
+
+    .content h1 {
+        font-size: 40px;
+        margin-top: 0px;
+    }
+
+    .content p {
+        max-width: 300px;
+        font-size: 12px;
+        margin-bottom: 0px;
+    }
+
+    .container {
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        transition: 0.3s;
+
+    }
+
+    .content h3 {
+        margin-top: 200px;
+
+    }
+}
